@@ -8,8 +8,8 @@ $merriweather: "Merriweather", sans-serif;
 
 body {
   height: 100vh;
-  background-color: $brand-purple;
-  color: $brand-green;
+  background-color: #eaeaea;
+  color: black;
   font-size: $font-size;
   font-weight: 900;
   font-family: $merriweather;
@@ -22,6 +22,36 @@ h6 {
 img {
   margin-left: auto;
   margin-right: auto;
+}
+
+.astronomy-card {
+  max-width: 75vw;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+    .astronomy-title {
+      font-size: 2em;
+    }
+
+    .astronomy-image-wrapper {
+      padding: 20px;
+    }
+
+    p {
+      padding: 20px;
+      line-height: 1.5;
+    }
+
+    span {
+      font-size: 1.25em;
+      color: red;
+      padding-bottom: 20px;
+    }
 }
 
 .container {
