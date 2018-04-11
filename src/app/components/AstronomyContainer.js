@@ -12,7 +12,11 @@ class AstronomyContainer extends Component {
 
   render() {
     return (
-      <AstronomyCard data={this.props.astronomy} />
+      <div>
+        <h1>Astronomy Picture of the Day</h1>
+        <AstronomyCard data={this.props.astronomy} />
+      </div>
+
     )
   }
 }
